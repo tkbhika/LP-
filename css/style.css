@@ -67,7 +67,7 @@ width: 360px;
 
 .top-wrap__right__top p {
   background-color: #D1E6EC;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: inline;
   padding: 10px 31px;
 }
@@ -86,7 +86,7 @@ width: 360px;
 }
 
 .top-wrap__right__bottom span {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #FC9700;
   display: inline-block;
   margin-bottom: 5px;
@@ -94,7 +94,7 @@ width: 360px;
 
 
 .top-wrap__right__bottom a {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: #fff;
   background-color: #FC9700;
@@ -132,7 +132,7 @@ width: 360px;
 
 /* ここからサービス */
 .service {
-  margin-top: 60px; 
+  background-color: #D1E6EC;
 }
 
 .service-wrap {
@@ -147,7 +147,7 @@ width: 360px;
 
 .s-ttl__1 {
   background-image: url(../img/dot.png);
-  font-size: 3rem;
+  font-size: 2.5rem;
   display: inline-block;
   padding: 3px 50px;
   box-shadow: 20px 20px 2px rgb(13, 103, 49, 0.8); 
@@ -156,7 +156,7 @@ width: 360px;
 
 .service-wrap__con {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 85%;
   margin: 0 auto;
   align-items: center;
@@ -164,13 +164,7 @@ width: 360px;
 }
 
 .service-wrap__con-1__img img {
-  width: 570px;
-}
-
-.ser-tx {
-  font-size: 2rem;
-  z-index: 1;
-  position: relative;
+  width: 450px;
 }
 
 .ser-tx::before {
@@ -178,51 +172,51 @@ width: 360px;
   display: block;
   background-color: #fff;
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  top: -25px;
+  top: -20px;
   left: -50px;
   z-index: -1;
 }
 
 .ser-tx {
-  font-size: 2rem;
+  font-size: 1.5rem;
   z-index: 1;
   position: relative;
 }
 
 .ser-persona {
-  height: 370px;
-  width:370px;
+  height: 300px;
+  width:300px;
   background-color: #FFF9C8;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.5rem;
   text-align: center;
-    box-shadow: 1px 1px 2px rgb(13, 103, 49, 0.4);
+  box-shadow: 1px 1px 2px rgb(13, 103, 49, 0.4);
 }
 
 .ser-problem-txbox {
-  width: 620px;
-  height: 300px;
+  width: 680px;
+  height: 250px;
   background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   border-radius: 30px;
+  margin-left: 2%;
 }
 
 .ser-problem-txbox::after {
   position: absolute;
   content:"";
   border-left: 45px solid #fff;
-  border-top: 25px solid transparent;
-  border-bottom: 25px solid transparent;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
   right: -45px;
 }
 
@@ -231,15 +225,16 @@ width: 360px;
 }
 
 .ser-problem-img {
-  width: 380px;
+  width: 300px;
+  padding-right: 5%;
 }
 
 .ser-tx2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   z-index: 1;
   position: relative;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 
 .ser-tx2::before {
@@ -247,15 +242,19 @@ width: 360px;
   display: block;
   background-color: #fff;
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  top: -25px;
+  top: -20px;
   left: -50px;
   z-index: -1;
 }
 
 /* ここから比較 */
+.comparison {
+  background-image: url(../img/dot.png);
+}
+
 .com-wrap {
   background-image: url(../img/dot.png);
   padding-top: 150px;
@@ -268,7 +267,7 @@ width: 360px;
 
 .s-ttl__2 {
   background-color: #D1E6EC;
-  font-size: 3rem;
+  font-size: 2.5rem;
   display: inline-block;
   padding: 3px 50px;
   box-shadow: 20px 20px 2px rgb(13, 103, 49, 0.8);
@@ -282,7 +281,7 @@ align-items: center;
 }
 
 table {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-collapse: separate;
   border-spacing: 10px;
   width: 85%;
@@ -294,7 +293,7 @@ th {
   background-color: #0D6731;
   border: solid 1px;
   border-color: #0D6731;
-  padding: 20px 0;  
+  padding: 15px 0;  
 }
 
 td {
@@ -316,6 +315,10 @@ td {
 
 
 /* ここから利用者の声 */
+.voice {
+  background-color: #D1E6EC;
+}
+
 .voice-wrap {
   background-color: #D1E6EC;
   padding-top: 150px;
@@ -335,7 +338,7 @@ td {
 }
 
 .voice-wrap__con img { 
-  width: 230px;
+  width: 200px;
 }
 
 .voice-wrap__con__box {
@@ -348,7 +351,7 @@ td {
 }
 
 .voice-wrap__con__box__inner {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -359,11 +362,11 @@ td {
 }
 
 .voice-wrap__con__box__ttl p {
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 
 .voice-wrap__con__box__ttl span {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 
@@ -372,11 +375,15 @@ td {
 }
 
 .voice-wrap__con__box__tx p{
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 
 /* ここからQ&A */
+.qa {
+  background-image: url(../img/dot.png);
+}
+
 .qa-wrap {
   background-image: url(../img/dot.png);
   padding-top: 150px;
@@ -389,7 +396,7 @@ td {
   margin: 0 auto;
   width: 85%;  
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .qa-wrap__ttl span {
@@ -415,7 +422,7 @@ td {
 }
 
 .qa-wrap__con__q-block p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: 3%;
   font-weight: bold;
 }
@@ -426,13 +433,17 @@ td {
 }
 
 .qa-wrap__con__a-block p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: left;
+  font-weight: bold;
 }
 
 /* ここから登録フォーム */
-.reg-wrap {
+.registration {
   background-color: #FFF9C8;
+}
+
+.reg-wrap {
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -443,11 +454,11 @@ td {
 }
 
 .reg-wrap__ttl span {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .reg-wrap__ttl p {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -462,25 +473,22 @@ td {
 }
 
 .reg-wrap__con__form__block__left {
-  display: block;
-  font-size: 2rem;
-  padding-bottom: 0.75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #0D6731;
-  width: 45%;
-  text-align: center;
+  width: 35%;
 }
 
 .reg-wrap__con__form__block__left p {
-  font-size: 1.15rem;
   color: #fff;
-  font-size: 2rem;
-  line-height: 3;
+  font-size: 1.5rem;
 }
 
 .reg-wrap__con__form__block__right {
   width: 55%;
   border: solid #d6d6d6 1px;
-  padding: 2%;
+  padding: 1.5%;
   background-color: #fff;
   display:flex;
   align-items: center;
@@ -488,10 +496,9 @@ td {
 
 .reg-wrap__con__form__block__right input,select {
   border: solid #d6d6d6 1px;
-  width:80%;
+  width:95%;
   height: 3rem;
   font-size: 1.25rem;
-  
 }
 
 .reg-wrap__con__form__btn {
@@ -507,7 +514,6 @@ td {
   width: 100%;
   cursor: pointer;
   font-size: 1.5rem;
-  font-weight: bold;
   color: #fff;
   border: unset;
   background-color: unset;
