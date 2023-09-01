@@ -142,8 +142,8 @@ width: 360px;
 
 .service-wrap {
   background-color: #D1E6EC;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 170px;
+  padding-bottom: 170px;
 }
 
 .service-wrap__ttl {
@@ -165,11 +165,12 @@ width: 360px;
   width: 85%;
   margin: 0 auto;
   align-items: center;
-  padding: 70px;
+  padding: 50px;
 }
 
 .service-wrap__con-1__img img {
   width: 450px;
+  padding-left: 40px;
 }
 
 .ser-tx::before {
@@ -177,10 +178,10 @@ width: 360px;
   display: block;
   background-color: #fff;
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
-  top: -20px;
+  top: -25px;
   left: -50px;
   z-index: -1;
 }
@@ -189,6 +190,7 @@ width: 360px;
   font-size: 1.5rem;
   z-index: 1;
   position: relative;
+  padding-right: 80px;
 }
 
 .ser-persona {
@@ -247,10 +249,10 @@ width: 360px;
   display: block;
   background-color: #fff;
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
-  top: -20px;
+  top: -25px;
   left: -50px;
   z-index: -1;
 }
